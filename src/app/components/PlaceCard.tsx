@@ -82,9 +82,26 @@ export function PlaceCard({ card, onClick }: PlaceCardProps) {
             {card.one_liner.ko}
           </p>
 
+          {/* Signature line — small, muted, em-dash separator
+              · 단일 button 안이므로 가격 링크는 여기선 비활성. 상세 시트에서만 링크.
+              · word-break: keep-all로 한국어 단어 단위 줄바꿈 (가운뎃점에서 자연스럽게 끊김) */}
+          {card.signature_line && (
+            <p
+              className="text-white/45"
+              style={{
+                fontSize: '12px',
+                lineHeight: 1.55,
+                marginTop: '6px',
+                wordBreak: 'keep-all',
+              }}
+            >
+              {card.signature_line}
+            </p>
+          )}
+
           {/* Tags */}
           <div className="flex flex-wrap gap-1.5 pt-1">
-            {card.theme_tags.map(tag => (
+            {card.theme_tags.map((tag) => (
               <span
                 key={tag}
                 className="px-2 py-0.5 rounded-full border border-white/10 text-white/40"

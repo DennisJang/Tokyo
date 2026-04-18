@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { X, MapPin, Clock, Copy, Check, ExternalLink } from 'lucide-react';
 import type { PlaceCard } from '../data/tripGuide';
+import { SignatureLine } from './SignatureLine';
 
 interface CardDetailSheetProps {
   card: PlaceCard | null;
@@ -54,8 +55,10 @@ export function CardDetailSheet({ card, onClose }: CardDetailSheetProps) {
 
   const openMaps = () => {
     if (!card) return;
-    const { lat, lng } = card.coordinates;
-    const url = `https://maps.google.com/?q=${lat},${lng}`;
+    // Place ID가 있으면 그쪽으로, 없으면 좌표로 fallback
+    const url = card.google_place_id
+      ? `https://www.google.com/maps/place/?q=place_id:${card.google_place_id}`
+      : `https://maps.google.com/?q=${card.coordinates.lat},${card.coordinates.lng}`;
     window.open(url, '_blank');
   };
 
@@ -130,7 +133,7 @@ export function CardDetailSheet({ card, onClose }: CardDetailSheetProps) {
             )}
           </div>
 
-          {/* Content */}
+          {/* Title block */}
           <div className="px-6 pt-5 space-y-1">
             <h2 className="text-white" style={{ fontSize: '28px', fontWeight: 500, lineHeight: 1.2 }}>
               {card.name.ko}
@@ -143,13 +146,25 @@ export function CardDetailSheet({ card, onClose }: CardDetailSheetProps) {
             </p>
           </div>
 
+          {/* One-liner */}
           <div className="px-6 mt-4">
             <p className="text-white/75" style={{ fontSize: '16px', lineHeight: 1.65 }}>
-              {lang === 'ko' ? card.one_liner.ko : card.one_liner.en}
+              {lang === 'ko' ? card.one_liner.ko : (card.one_liner.en ?? card.one_liner.ko)}
             </p>
           </div>
 
-          {/* Divider */}
+          {/* Signature line — 가격은 Google Maps 링크 (★ 신규) */}
+          {card.signature_line && (
+            <div className="px-6 mt-3">
+              <SignatureLine
+                line={card.signature_line}
+                googlePlaceId={card.google_place_id}
+                placeName={card.name.ko}
+              />
+            </div>
+          )}
+
+          {/* Hairline divider */}
           <div className="mx-6 mt-5 h-px bg-white/8" />
 
           {/* Metadata */}
@@ -181,7 +196,7 @@ export function CardDetailSheet({ card, onClose }: CardDetailSheetProps) {
 
           {/* Tags */}
           <div className="px-6 mt-4 flex flex-wrap gap-2">
-            {card.theme_tags.map(tag => (
+            {card.theme_tags.map((tag) => (
               <span
                 key={tag}
                 className="px-2.5 py-1 rounded-full border border-white/12 text-white/45"

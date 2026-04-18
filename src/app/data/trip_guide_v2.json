@@ -1,0 +1,2498 @@
+{
+  "issue": {
+    "title": "TOKYO",
+    "tagline": {
+      "ko": "효율보다 다양성을 택한 도시",
+      "en": "A city that chose variety over efficiency"
+    },
+    "type": "single_issue_digital_magazine",
+    "primary_language": "ko",
+    "secondary_languages": [
+      "en",
+      "ja"
+    ],
+    "density_variant": "cereal",
+    "color_mode": "dark",
+    "deployment_target": "safehomepro.co.kr",
+    "narrative_arc": "익숙(시부야·신주쿠·긴자) → 중간(하라주쿠·아사쿠사·우에노) → 이색(시모키타자와·아자부주반) → 별책(Day Trips) → 부록(Practical)",
+    "tone_references": [
+      "Apple News long-form",
+      "Apple Travel Guides (iOS)",
+      "Cereal Magazine",
+      "Monocle City Guides",
+      "Wallpaper City Guides"
+    ],
+    "build_pipeline": "trip_guide.json → Figma Make (영문 프롬프트) → Figma → Repo → 배포"
+  },
+  "editor_note": {
+    "id": "section_editor_note",
+    "order": 1,
+    "type": "long_form_essay",
+    "title": {
+      "ko": "왜 지금 도쿄를 펼치는가",
+      "en": "Why Tokyo, Why Now"
+    },
+    "cover_image": {
+      "intent": "도쿄 도착 직전의 비행기 창문 또는 신주쿠 야경 widescreen",
+      "fetch_strategy": "Pexels query: 'tokyo skyline night airplane window' or 'shinjuku night neon'"
+    },
+    "body": {
+      "ko": "예약하는 순간, 이미 여행은 시작됩니다. 한 연구는 여행이 주는 즐거움 중 97%가 도착 전 — 비행기를 검색하고, 동선을 짜고, 어느 골목의 어느 가게에 들를지 상상하는 시간 — 에서 발생한다고 말합니다. 이 매거진은 그 97%를 위한 책입니다. 효율적인 일정표가 아니라, 천천히 펼치며 즐길 수 있는 한 권.\n\n도쿄는 효율보다 다양성을 택한 도시입니다. 시부야 스크램블 한가운데서, 신주쿠 골든가이의 좁은 알리에서, 시모키타자와의 해진 빈티지 코트 사이에서 — 도시는 하나의 정답을 강요하지 않습니다. 그래서 도쿄에 가기로 했다면, 도착하는 순간보다 펼치는 순간이 더 중요합니다.",
+      "en": "The moment you book, the trip has already begun. Research suggests that 97% of travel's pleasure happens before arrival — while searching for flights, sketching itineraries, imagining which shop in which alley you'll step into. This magazine is a book for that 97%. Not an efficient schedule, but something to be opened slowly.\n\nTokyo chose variety over efficiency. In the middle of Shibuya's scramble, in the narrow alleys of Shinjuku Golden Gai, between Shimokitazawa's well-worn vintage coats — the city refuses to insist on a single right answer. If you've decided on Tokyo, the moment of opening matters more than the moment of arriving."
+    },
+    "source_atoms": [
+      "atom_p4_001"
+    ],
+    "motif": "anticipation_effect_97_percent",
+    "render_treatment": "no cards. Hero image + 18pt body text. Korean primary, English toggle."
+  },
+  "chapters": [
+    {
+      "id": "ch_shibuya",
+      "order": 2,
+      "title_large": {
+        "primary": "시부야",
+        "native": "渋谷",
+        "local": "Shibuya"
+      },
+      "subtitle_intent": "스크램블의 한가운데, 그래서 도쿄의 심장",
+      "narrative_position": "익숙_1",
+      "card_count": 13,
+      "card_count_target": "12~18",
+      "cover_entity_id": "ent_001",
+      "cluster_center": {
+        "lat": 35.66111,
+        "lng": 139.69985
+      },
+      "cards": [
+        {
+          "entity_id": "ent_001",
+          "name": {
+            "native": "渋谷スカイ",
+            "romaji": "Shibuya Sky",
+            "ko": "시부야 스카이"
+          },
+          "one_liner": {
+            "ko": "수많은 사람들이 동시에 건너는 세계적으로 유명한 횡단보도, 도쿄의 역동적 분위기",
+            "_source_tier": 1,
+            "_source_kind": "curator_note",
+            "_source_atom": "atom_p1_002"
+          },
+          "address": "Japan, 〒150-6145 Tokyo, Shibuya, 2-chōme−24−12 Shibuya Scramble Square 14·45·46F·屋上",
+          "coordinates": {
+            "lat": 35.6586719,
+            "lng": 139.7019848
+          },
+          "hours": "10:00–22:30 daily",
+          "theme_tags": [
+            "viewpoint",
+            "landmark"
+          ],
+          "google_place_id": "ChIJ4Rr2JWiLGGARcyRSHuZ-9G8",
+          "image_query": "Shibuya Sky 시부야 Tokyo",
+          "confidence": 0.95,
+          "mention_count": 3,
+          "_provenance_atoms": [
+            "atom_p1_002",
+            "atom_p3_002",
+            "atom_p4_004"
+          ],
+          "signature_line": "입장 2,500엔 (사전 예매 권장) · 일몰 1시간 전 도착 · 옥상 사진존 무료"
+        },
+        {
+          "entity_id": "ent_008",
+          "name": {
+            "native": "代々木公園",
+            "romaji": "Yoyogi Park",
+            "ko": "요요기 공원"
+          },
+          "one_liner": {
+            "ko": "넓은 잔디·숲, 도심 속 피크닉·산책",
+            "_source_tier": 1,
+            "_source_kind": "curator_note",
+            "_source_atom": "atom_p1_002"
+          },
+          "address": "2-1 Yoyogikamizonochō, Shibuya, Tokyo 151-0052",
+          "coordinates": {
+            "lat": 35.6700649,
+            "lng": 139.6949656
+          },
+          "hours": "24h",
+          "theme_tags": [
+            "park",
+            "landmark"
+          ],
+          "google_place_id": "ChIJMwpiebSMGGARPr_454zHvDQ",
+          "image_query": "Yoyogi Park 시부야 Tokyo",
+          "confidence": 0.95,
+          "mention_count": 3,
+          "_provenance_atoms": [
+            "atom_p1_002",
+            "atom_p1_006",
+            "atom_p4_004"
+          ],
+          "signature_line": "무료 · 일요일 코스튬·뮤지션 · 메이지 신궁 산책로 연결"
+        },
+        {
+          "entity_id": "ent_006",
+          "name": {
+            "native": "ミヤシタパーク",
+            "romaji": "Miyashita Park",
+            "ko": "미야시타 파크"
+          },
+          "one_liner": {
+            "ko": "쇼핑·공원·루프탑이 결합된 복합 문화 공간, 휴식과 트렌디",
+            "_source_tier": 1,
+            "_source_kind": "curator_note",
+            "_source_atom": "atom_p1_002"
+          },
+          "address": "6-chōme-20-10 Jingūmae, Shibuya, Tokyo 150-0001",
+          "coordinates": {
+            "lat": 35.661791,
+            "lng": 139.7018507
+          },
+          "hours": "11:00–21:00 (mall); park 24h",
+          "theme_tags": [
+            "shop",
+            "park"
+          ],
+          "google_place_id": "ChIJURWUIuaNGGARvtlnJNz-AFQ",
+          "image_query": "Miyashita Park 시부야 Tokyo",
+          "confidence": 0.8,
+          "mention_count": 2,
+          "_provenance_atoms": [
+            "atom_p1_002",
+            "atom_p3_006"
+          ],
+          "signature_line": "옥상 24h 무료 진입 · 시부야 스카이 가성비 대안 · 1F 푸드코트"
+        },
+        {
+          "entity_id": "ent_005",
+          "name": {
+            "native": "渋谷センター街",
+            "romaji": "Shibuya Center-Gai",
+            "ko": "시부야 센터가이"
+          },
+          "one_liner": {
+            "ko": "수많은 사람들이 동시에 건너는 세계적으로 유명한 횡단보도, 도쿄의 역동적 분위기",
+            "_source_tier": 1,
+            "_source_kind": "curator_note",
+            "_source_atom": "atom_p1_002"
+          },
+          "address": "Shibuya Center-Gai, Udagawachō, Shibuya, Tokyo 150-0042",
+          "coordinates": {
+            "lat": 35.6604139,
+            "lng": 139.698578
+          },
+          "hours": "24h",
+          "theme_tags": [
+            "street"
+          ],
+          "google_place_id": "ChIJI0xlZamMGGARVz2RF8H9Vz8",
+          "image_query": "Shibuya Center-Gai 시부야 Tokyo",
+          "confidence": 0.8,
+          "mention_count": 2,
+          "_provenance_atoms": [
+            "atom_p1_002",
+            "atom_p4_004"
+          ],
+          "signature_line": "보행자 거리 · 24h 활기 · 심야 라멘·이자카야"
+        },
+        {
+          "entity_id": "ent_002",
+          "name": {
+            "native": "渋谷スクランブル交差点",
+            "romaji": "Shibuya Scramble Crossing",
+            "ko": "시부야 스크램블 횡단보도"
+          },
+          "one_liner": {
+            "ko": "수많은 사람들이 동시에 건너는 세계적으로 유명한 횡단보도, 도쿄의 역동적 분위기",
+            "_source_tier": 1,
+            "_source_kind": "curator_note",
+            "_source_atom": "atom_p1_002"
+          },
+          "address": "21 Udagawacho, Shibuya, Tokyo 150-0042",
+          "coordinates": {
+            "lat": 35.659482,
+            "lng": 139.7005596
+          },
+          "hours": "24h",
+          "theme_tags": [
+            "landmark"
+          ],
+          "google_place_id": "ChIJK9EM68qLGGARacmu4KJj5SA",
+          "image_query": "Shibuya Scramble Crossing 시부야 Tokyo",
+          "confidence": 0.8,
+          "mention_count": 2,
+          "_provenance_atoms": [
+            "atom_p1_002",
+            "atom_p3_002"
+          ],
+          "signature_line": "신호 한 번에 약 3,000명 · 츠타야 스타벅스 2F가 베스트 뷰"
+        },
+        {
+          "entity_id": "ent_012",
+          "name": {
+            "native": "鳥竹総本店",
+            "romaji": "Toritake",
+            "ko": "토리타케 (시부야 본점)"
+          },
+          "one_liner": {
+            "ko": "한 끼의 격식",
+            "_source_tier": 4,
+            "_source_kind": "theme_auto"
+          },
+          "address": "1-chōme-6-1 Dōgenzaka, Shibuya, Tokyo 150-0043",
+          "coordinates": {
+            "lat": 35.658032299999995,
+            "lng": 139.69897369999998
+          },
+          "hours": "12:00–23:00 daily",
+          "theme_tags": [
+            "restaurant"
+          ],
+          "google_place_id": "ChIJH8tXyleLGGARLlfSduTu-JU",
+          "image_query": "Toritake 시부야 Tokyo",
+          "confidence": 0.8,
+          "mention_count": 2,
+          "_provenance_atoms": [
+            "atom_p2_002",
+            "atom_p3_006"
+          ],
+          "signature_line": "야키토리 노포, 1963년 · 1인 2,000~3,000엔 · 영어 메뉴"
+        },
+        {
+          "entity_id": "ent_010",
+          "name": {
+            "native": "ねぎし 道玄坂",
+            "romaji": "Negishi Dogenzaka",
+            "ko": "네기시 도겐자카점"
+          },
+          "one_liner": {
+            "ko": "한 끼의 격식",
+            "_source_tier": 4,
+            "_source_kind": "theme_auto"
+          },
+          "address": "Japan, 〒150-0043 Tokyo, Shibuya, Dōgenzaka, 2-chōme−29−8 道玄坂センタービルB1",
+          "coordinates": {
+            "lat": 35.659251,
+            "lng": 139.697958
+          },
+          "hours": "11:00–22:30 daily",
+          "theme_tags": [
+            "restaurant"
+          ],
+          "google_place_id": "ChIJT2m_xKmMGGAR7Y6Np_r9JNw",
+          "image_query": "Negishi Dogenzaka 시부야 Tokyo",
+          "confidence": 0.65,
+          "mention_count": 1,
+          "_provenance_atoms": [
+            "atom_p2_002"
+          ],
+          "signature_line": "규탄(소혀) 정식 1,800엔 · 무료 밥 리필 · 도겐자카 지하"
+        },
+        {
+          "entity_id": "ent_009",
+          "name": {
+            "native": "明治神宮",
+            "romaji": "Meiji Jingu",
+            "ko": "메이지 신궁"
+          },
+          "one_liner": {
+            "ko": "도쿄의 한 장면",
+            "_source_tier": 4,
+            "_source_kind": "theme_auto"
+          },
+          "address": "1-1 Yoyogikamizonochō, Shibuya, Tokyo 151-8557",
+          "coordinates": {
+            "lat": 35.6763976,
+            "lng": 139.6993259
+          },
+          "hours": "Sunrise–sunset (varies by season)",
+          "theme_tags": [
+            "landmark"
+          ],
+          "google_place_id": "ChIJ5SZMmreMGGARcz8QSTiJyo8",
+          "image_query": "Meiji Jingu 시부야 Tokyo",
+          "confidence": 0.65,
+          "mention_count": 1,
+          "_provenance_atoms": [
+            "atom_p4_004"
+          ],
+          "signature_line": "무료 · 도쿄 한복판 70만㎡ 숲 · 1월 1일 신년 참배 30만 인파"
+        },
+        {
+          "entity_id": "ent_011",
+          "name": {
+            "native": "BUY ME STAND",
+            "romaji": "Buy Me Stand Shibuya",
+            "ko": "바이 미 스탠드"
+          },
+          "one_liner": {
+            "ko": "한 끼의 격식",
+            "_source_tier": 4,
+            "_source_kind": "theme_auto"
+          },
+          "address": "Japan, 〒150-0011 Tokyo, Shibuya, Higashi, 1-chōme−31−19 Mansion Shibuya Namikibashi, 202",
+          "coordinates": {
+            "lat": 35.6545309,
+            "lng": 139.7063076
+          },
+          "hours": "08:00–17:00 daily",
+          "theme_tags": [
+            "restaurant"
+          ],
+          "google_place_id": "ChIJAQDMYluLGGARX7qgXhs3f-0",
+          "image_query": "Buy Me Stand Shibuya 시부야 Tokyo",
+          "confidence": 0.65,
+          "mention_count": 1,
+          "_provenance_atoms": [
+            "atom_p2_002"
+          ],
+          "signature_line": "그릴드 치즈 샌드위치 약 1,200엔~ · 미국 다이너 무드 · 작은 가게"
+        },
+        {
+          "entity_id": "ent_007",
+          "name": {
+            "native": "SHIBUYA109",
+            "romaji": "Shibuya 109",
+            "ko": "시부야 109"
+          },
+          "one_liner": {
+            "ko": "수많은 사람들이 동시에 건너는 세계적으로 유명한 횡단보도, 도쿄의 역동적 분위기",
+            "_source_tier": 1,
+            "_source_kind": "curator_note",
+            "_source_atom": "atom_p1_002"
+          },
+          "address": "2-chōme-29-1 Dōgenzaka, Shibuya, Tokyo 150-0043",
+          "coordinates": {
+            "lat": 35.6595771,
+            "lng": 139.698728
+          },
+          "hours": "10:00–21:00 daily",
+          "theme_tags": [
+            "shop"
+          ],
+          "google_place_id": "ChIJhxxszamMGGARcuAXpFunolU",
+          "image_query": "Shibuya 109 시부야 Tokyo",
+          "confidence": 0.65,
+          "mention_count": 1,
+          "_provenance_atoms": [
+            "atom_p1_002"
+          ],
+          "signature_line": "갸루 패션 명소, 1979년 오픈 · B2~8F 약 100개 매장 · 면세 가능"
+        },
+        {
+          "entity_id": "ent_003",
+          "name": {
+            "native": "渋谷スクランブルスクエア",
+            "romaji": "Shibuya Scramble Square",
+            "ko": "시부야 스크램블 스퀘어"
+          },
+          "one_liner": {
+            "ko": "한 손에 담을 도쿄",
+            "_source_tier": 4,
+            "_source_kind": "theme_auto"
+          },
+          "address": "2-chōme-24-12 Shibuya, Tokyo 150-0002",
+          "coordinates": {
+            "lat": 35.6584638,
+            "lng": 139.70226209999998
+          },
+          "hours": "10:00–21:00 daily",
+          "theme_tags": [
+            "shop"
+          ],
+          "google_place_id": "ChIJscDhJ4SLGGARbx0GlzPi9ng",
+          "image_query": "Shibuya Scramble Square 시부야 Tokyo",
+          "confidence": 0.65,
+          "mention_count": 1,
+          "_provenance_atoms": [
+            "atom_p3_006"
+          ],
+          "signature_line": "도큐 그룹 복합몰 · B2 식품관 · 14F가 시부야 스카이 입구"
+        },
+        {
+          "entity_id": "ent_004",
+          "name": {
+            "native": "ハチ公像",
+            "romaji": "Hachiko Statue",
+            "ko": "하치코 동상"
+          },
+          "one_liner": {
+            "ko": "충견 하치코 이야기, 시부야 대표 만남의 장소",
+            "_source_tier": 1,
+            "_source_kind": "curator_note",
+            "_source_atom": "atom_p1_002"
+          },
+          "address": "2 Chome-1 Dogenzaka, Shibuya, Tokyo 150-0043",
+          "coordinates": {
+            "lat": 35.6590579,
+            "lng": 139.7006293
+          },
+          "hours": "24h",
+          "theme_tags": [
+            "landmark"
+          ],
+          "google_place_id": "ChIJx1e971eLGGARum8w_tnpFwI",
+          "image_query": "Hachiko Statue 시부야 Tokyo",
+          "confidence": 0.65,
+          "mention_count": 1,
+          "_provenance_atoms": [
+            "atom_p1_002"
+          ],
+          "signature_line": "무료 · 1934년 · 만남 약속 1순위 랜드마크"
+        },
+        {
+          "entity_id": "ent_013",
+          "name": {
+            "native": "ホルモンちば 渋谷店",
+            "romaji": "Hormone Chiba - Shibuya Branch",
+            "ko": "호르몬 치바 시부야점"
+          },
+          "one_liner": {
+            "ko": "한 끼의 격식",
+            "_source_tier": 4,
+            "_source_kind": "theme_auto"
+          },
+          "address": "2-chōme-14-17 Dōgenzaka, Shibuya, Tokyo 150-0043",
+          "coordinates": {
+            "lat": 35.6587116,
+            "lng": 139.69591370000003
+          },
+          "hours": "Tue–Sun 17:00–23:00 (Mon closed; Sat from 16:00)",
+          "theme_tags": [
+            "restaurant"
+          ],
+          "google_place_id": "ChIJV4h4iZmNGGARv-t76fxTNRI",
+          "image_query": "Hormone Chiba - Shibuya Branch 시부야 Tokyo",
+          "confidence": 0.65,
+          "mention_count": 1,
+          "_provenance_atoms": [
+            "atom_p2_002"
+          ],
+          "signature_line": "곱창구이 노포 · 1인 약 3,000엔 · 카운터 6석, 예약 필수"
+        }
+      ]
+    },
+    {
+      "id": "ch_shinjuku",
+      "order": 3,
+      "title_large": {
+        "primary": "신주쿠",
+        "native": "新宿",
+        "local": "Shinjuku"
+      },
+      "subtitle_intent": "낮의 교엔, 밤의 골든가이 — 두 얼굴이 한 동네",
+      "narrative_position": "익숙_2",
+      "card_count": 10,
+      "card_count_target": "10~14",
+      "cover_entity_id": "ent_020",
+      "cluster_center": {
+        "lat": 35.69273,
+        "lng": 139.70177
+      },
+      "cards": [
+        {
+          "entity_id": "ent_020",
+          "name": {
+            "native": "歌舞伎町",
+            "romaji": "Kabukicho",
+            "ko": "신주쿠 가부키초"
+          },
+          "one_liner": {
+            "ko": "이동 + 신주쿠/가부키초 밤거리 산책 + 디즈니 가는 버스표 미리 구매 — '첫날은 가볍게'가 일정 설계 원칙",
+            "_source_tier": 1,
+            "_source_kind": "curator_note",
+            "_source_atom": "atom_p3_002"
+          },
+          "address": "Kabukicho, Shinjuku City, Tokyo 160-0021",
+          "coordinates": {
+            "lat": 35.6960834,
+            "lng": 139.7026251
+          },
+          "hours": "24h",
+          "theme_tags": [
+            "landmark"
+          ],
+          "google_place_id": "ChIJNVyGTtiMGGARrO_-DeAYNAM",
+          "image_query": "Kabukicho 신주쿠 Tokyo",
+          "confidence": 0.8,
+          "mention_count": 2,
+          "_provenance_atoms": [
+            "atom_p3_002",
+            "atom_p4_003"
+          ],
+          "signature_line": "도쿄 최대 환락가 · 야경은 안전, 새벽 호객 주의"
+        },
+        {
+          "entity_id": "ent_026",
+          "name": {
+            "native": "新宿御苑",
+            "romaji": "Shinjuku Gyoen National Garden",
+            "ko": "신주쿠 교엔"
+          },
+          "one_liner": {
+            "ko": "도쿄 한복판 가장 정돈된 아름다움. 일본식·영국식·프랑스식 정원이 어우러진 벚꽃 명소",
+            "_source_tier": 1,
+            "_source_kind": "curator_note",
+            "_source_atom": "atom_p1_006"
+          },
+          "address": "11 Naitōmachi, Shinjuku City, Tokyo 160-0014",
+          "coordinates": {
+            "lat": 35.685176299999995,
+            "lng": 139.7100517
+          },
+          "hours": "09:00–18:00 (varies by season; closed Mondays)",
+          "theme_tags": [
+            "park",
+            "landmark"
+          ],
+          "google_place_id": "ChIJPyOTG8KMGGARh_IXobWxHmo",
+          "image_query": "Shinjuku Gyoen National Garden 신주쿠 Tokyo",
+          "confidence": 0.8,
+          "mention_count": 2,
+          "_provenance_atoms": [
+            "atom_p1_006",
+            "atom_p4_003"
+          ],
+          "signature_line": "입장 500엔 · 영국·프랑스·일본 정원 통합 58ha · 4월 벚꽃·11월 단풍"
+        },
+        {
+          "entity_id": "ent_029",
+          "name": {
+            "native": "TOHOシネマズ新宿 (ゴジラヘッド)",
+            "romaji": "TOHO Cinemas Shinjuku (Godzilla Head)",
+            "ko": "TOHO 시네마즈 신주쿠 (고질라 머리)"
+          },
+          "one_liner": {
+            "ko": "비명을 들이마시는 곳",
+            "_source_tier": 4,
+            "_source_kind": "theme_auto"
+          },
+          "address": "Japan, 〒160-0021 Tokyo, Shinjuku City, Kabukichō, 1-chōme−19−1 Shinjuku Toho Building, 3階",
+          "coordinates": {
+            "lat": 35.6951588,
+            "lng": 139.7020539
+          },
+          "hours": "Cinema schedule varies; Godzilla head viewable from street 24h",
+          "theme_tags": [
+            "amusement",
+            "landmark"
+          ],
+          "google_place_id": "ChIJ__JMK9iMGGAR6P_7QHoOGE4",
+          "image_query": "TOHO Cinemas Shinjuku (Godzilla Head) 신주쿠 Tokyo",
+          "confidence": 0.65,
+          "mention_count": 1,
+          "_provenance_atoms": [
+            "atom_p4_004"
+          ],
+          "signature_line": "8F 옥상 고질라 사진 무료 · 영화관 1,900엔"
+        },
+        {
+          "entity_id": "ent_027",
+          "name": {
+            "native": "namco TOKYO",
+            "romaji": "namco TOKYO",
+            "ko": "남코 도쿄 (가부키초 타워 3F)"
+          },
+          "one_liner": {
+            "ko": "비명을 들이마시는 곳",
+            "_source_tier": 4,
+            "_source_kind": "theme_auto"
+          },
+          "address": "Japan, 〒160-0021 Tokyo, Shinjuku City, Kabukichō, 1-chōme−29−1 東急歌舞伎町タワー 3階",
+          "coordinates": {
+            "lat": 35.6957906,
+            "lng": 139.7006101
+          },
+          "hours": "Sun–Thu 11:00–23:00; Fri–Sat 11:00–01:00",
+          "theme_tags": [
+            "amusement"
+          ],
+          "google_place_id": "ChIJXyC_DnWNGGARp5if36GyKw0",
+          "image_query": "namco TOKYO 신주쿠 Tokyo",
+          "confidence": 0.65,
+          "mention_count": 1,
+          "_provenance_atoms": [
+            "atom_p3_002"
+          ],
+          "signature_line": "가챠·아케이드·바 통합 · 24h 영업"
+        },
+        {
+          "entity_id": "ent_025",
+          "name": {
+            "native": "東京都庁舎 北展望室",
+            "romaji": "Tokyo Metropolitan Government Building - North Observation Deck",
+            "ko": "도쿄 도청 전망대 (북)"
+          },
+          "one_liner": {
+            "ko": "무료 전망, 맑은 날 후지산",
+            "_source_tier": 1,
+            "_source_kind": "curator_note",
+            "_source_atom": "atom_p4_003"
+          },
+          "address": "Japan, 〒163-8001 Tokyo, Shinjuku City, Nishishinjuku, 2-chōme−8−1 Tochomae Station, 45F",
+          "coordinates": {
+            "lat": 35.689733,
+            "lng": 139.6916563
+          },
+          "hours": "Tue–Sun 09:30–17:00 (Mon closed)",
+          "theme_tags": [
+            "viewpoint",
+            "landmark"
+          ],
+          "google_place_id": "ChIJnctryNSMGGARLv4MknPFseU",
+          "image_query": "Tokyo Metropolitan Government Building - North Observation Deck 신주쿠 Tokyo",
+          "confidence": 0.65,
+          "mention_count": 1,
+          "_provenance_atoms": [
+            "atom_p4_003"
+          ],
+          "signature_line": "무료 · 45F · 화요일 휴관 · 후지산 잘 보이는 날 권장"
+        },
+        {
+          "entity_id": "ent_021",
+          "name": {
+            "native": "東急歌舞伎町タワー",
+            "romaji": "Tokyu Kabukicho Tower",
+            "ko": "신주쿠 가부키초 타워"
+          },
+          "one_liner": {
+            "ko": "카페와 편집숍이 모여 있는 트렌디한 거리",
+            "_source_tier": 1,
+            "_source_kind": "curator_note",
+            "_source_atom": "atom_p4_003"
+          },
+          "address": "1-chōme-29-1 Kabukichō, Shinjuku City, Tokyo 160-0021",
+          "coordinates": {
+            "lat": 35.6957513,
+            "lng": 139.70058939999998
+          },
+          "hours": "24h (mall facilities vary)",
+          "theme_tags": [
+            "shop",
+            "amusement"
+          ],
+          "google_place_id": "ChIJP6oqgv2NGGARqV5VFswMftQ",
+          "image_query": "Tokyu Kabukicho Tower 신주쿠 Tokyo",
+          "confidence": 0.65,
+          "mention_count": 1,
+          "_provenance_atoms": [
+            "atom_p4_003"
+          ],
+          "signature_line": "2023년 오픈 · 호텔·시네마·라이브하우스·푸드코트 복합"
+        },
+        {
+          "entity_id": "ent_023",
+          "name": {
+            "native": "新宿ゴールデン街",
+            "romaji": "Shinjuku Golden Gai",
+            "ko": "신주쿠 골든가이"
+          },
+          "one_liner": {
+            "ko": "카페와 편집숍이 모여 있는 트렌디한 거리",
+            "_source_tier": 1,
+            "_source_kind": "curator_note",
+            "_source_atom": "atom_p4_003"
+          },
+          "address": "Japan, 〒160-0021 Tokyo, Shinjuku City, Kabukichō, 1-chōme−1−6 あかるい花園 五番街",
+          "coordinates": {
+            "lat": 35.6941118,
+            "lng": 139.7047611
+          },
+          "hours": "Most bars open 17:00/18:00 till late (each bar varies)",
+          "theme_tags": [
+            "landmark",
+            "bar",
+            "restaurant"
+          ],
+          "google_place_id": "ChIJr7mGZdmMGGARjxoMFeHApXE",
+          "image_query": "Shinjuku Golden Gai 신주쿠 Tokyo",
+          "confidence": 0.65,
+          "mention_count": 1,
+          "_provenance_atoms": [
+            "atom_p4_003"
+          ],
+          "signature_line": "6 좁은 골목, 200여 미니바 · 시팅 차지 1,000엔~ · 영어 OK 바 따로 표시"
+        },
+        {
+          "entity_id": "ent_024",
+          "name": {
+            "native": "思い出横丁",
+            "romaji": "Omoide Yokocho Memory Lane",
+            "ko": "오모이데 요코초"
+          },
+          "one_liner": {
+            "ko": "좁은 골목 이자카야 레트로, 현지 감성",
+            "_source_tier": 1,
+            "_source_kind": "curator_note",
+            "_source_atom": "atom_p4_003"
+          },
+          "address": "1 Chome-2 Nishishinjuku, Shinjuku City, Tokyo 160-0023",
+          "coordinates": {
+            "lat": 35.6927011,
+            "lng": 139.6995778
+          },
+          "hours": "24h (most stalls 17:00–24:00)",
+          "theme_tags": [
+            "landmark",
+            "restaurant"
+          ],
+          "google_place_id": "ChIJP9eKBdeMGGAR0zzBXJNVj5A",
+          "image_query": "Omoide Yokocho Memory Lane 신주쿠 Tokyo",
+          "confidence": 0.65,
+          "mention_count": 1,
+          "_provenance_atoms": [
+            "atom_p4_003"
+          ],
+          "signature_line": "60년 야키토리 골목 · 1인 2,000엔~ · 사진은 18:00 후"
+        },
+        {
+          "entity_id": "ent_022",
+          "name": {
+            "native": "伊勢丹 新宿店",
+            "romaji": "Isetan Shinjuku",
+            "ko": "이세탄 신주쿠점"
+          },
+          "one_liner": {
+            "ko": "일본 대표 프리미엄 백화점, 쇼핑과 디저트",
+            "_source_tier": 1,
+            "_source_kind": "curator_note",
+            "_source_atom": "atom_p4_003"
+          },
+          "address": "3-chōme-14-1 Shinjuku, Shinjuku City, Tokyo 160-0022",
+          "coordinates": {
+            "lat": 35.691574,
+            "lng": 139.7046466
+          },
+          "hours": "10:00–20:00 daily",
+          "theme_tags": [
+            "shop"
+          ],
+          "google_place_id": "ChIJ9ztrpduMGGARte1BM8ccdIs",
+          "image_query": "Isetan Shinjuku 신주쿠 Tokyo",
+          "confidence": 0.65,
+          "mention_count": 1,
+          "_provenance_atoms": [
+            "atom_p4_003"
+          ],
+          "signature_line": "일본 최고 백화점 · B1 데파치카가 본질 · 면세 카운터 3F"
+        },
+        {
+          "entity_id": "ent_028",
+          "name": {
+            "native": "ハーブス 新宿ルミネエスト店",
+            "romaji": "HARBS Shinjuku Lumine Est",
+            "ko": "하브스 신주쿠점"
+          },
+          "one_liner": {
+            "ko": "한 잔의 시간",
+            "_source_tier": 4,
+            "_source_kind": "theme_auto"
+          },
+          "address": "Japan, 〒160-0022 Tokyo, Shinjuku City, Shinjuku, 3-chōme−38−1 ルミネエスト新宿 地下 2階",
+          "coordinates": {
+            "lat": 35.691250499999995,
+            "lng": 139.70114189999998
+          },
+          "hours": "11:00–21:00 daily",
+          "theme_tags": [
+            "cafe",
+            "bakery"
+          ],
+          "google_place_id": "ChIJ13PJM1CNGGAR0s9NCyVpyHE",
+          "image_query": "HARBS Shinjuku Lumine Est 신주쿠 Tokyo",
+          "confidence": 0.65,
+          "mention_count": 1,
+          "_provenance_atoms": [
+            "atom_p2_002"
+          ],
+          "signature_line": "밀크레프 케이크 950엔~ · 평일 1시간 대기 · 1인 1메뉴 필수"
+        }
+      ]
+    },
+    {
+      "id": "ch_ginza",
+      "order": 4,
+      "title_large": {
+        "primary": "긴자",
+        "native": "銀座",
+        "local": "Ginza"
+      },
+      "subtitle_intent": "도쿄의 정장 — 미식의 격식",
+      "narrative_position": "익숙_3",
+      "card_count": 10,
+      "card_count_target": "8~12",
+      "cover_entity_id": "ent_036",
+      "cluster_center": {
+        "lat": 35.67027,
+        "lng": 139.76577
+      },
+      "cards": [
+        {
+          "entity_id": "ent_036",
+          "name": {
+            "native": "グリルボン",
+            "romaji": "Grill Bon",
+            "ko": "그릴 본 긴자점"
+          },
+          "one_liner": {
+            "ko": "한 끼의 격식",
+            "_source_tier": 4,
+            "_source_kind": "theme_auto"
+          },
+          "address": "Japan, 〒104-0061 Tokyo, Chuo City, Ginza, 7-chōme−14−1 荏原実業第一ビル 1F",
+          "coordinates": {
+            "lat": 35.6676984,
+            "lng": 139.7652907
+          },
+          "hours": "Mon–Fri 11:00–20:00; Sat 11:00–17:00 (Sun closed)",
+          "theme_tags": [
+            "restaurant"
+          ],
+          "google_place_id": "ChIJcUZugueLGGARxDoWvGWHiQo",
+          "image_query": "Grill Bon 긴자 Tokyo",
+          "confidence": 0.65,
+          "mention_count": 1,
+          "_provenance_atoms": [
+            "atom_p2_002"
+          ],
+          "signature_line": "비프 카츠 샌드 1,500엔 · 카운터 8석 · 1949년 노포"
+        },
+        {
+          "entity_id": "ent_032",
+          "name": {
+            "native": "とんかつ 銀座梅林本店",
+            "romaji": "Tonkatsu Ginza Bairin Honten",
+            "ko": "긴자 바이린 본점"
+          },
+          "one_liner": {
+            "ko": "한 끼의 격식",
+            "_source_tier": 4,
+            "_source_kind": "theme_auto"
+          },
+          "address": "B1, 7-chōme-8-1 Ginza, Chuo City, Tokyo 104-0061",
+          "coordinates": {
+            "lat": 35.6695863,
+            "lng": 139.7627483
+          },
+          "hours": "11:30–20:00 daily",
+          "theme_tags": [
+            "restaurant"
+          ],
+          "google_place_id": "ChIJt4oOwIeLGGARaR5a7m3ihng",
+          "image_query": "Tonkatsu Ginza Bairin Honten 긴자 Tokyo",
+          "confidence": 0.65,
+          "mention_count": 1,
+          "_provenance_atoms": [
+            "atom_p1_005"
+          ],
+          "signature_line": "도쿄 최초 카츠 전문, 1927년 · 카츠 샌드 1,200엔~ · 카츠동 1,500엔~"
+        },
+        {
+          "entity_id": "ent_035",
+          "name": {
+            "native": "ニュー鳥ぎん",
+            "romaji": "New TORIGIN",
+            "ko": "뉴 토리긴 긴자점"
+          },
+          "one_liner": {
+            "ko": "한 끼의 격식",
+            "_source_tier": 4,
+            "_source_kind": "theme_auto"
+          },
+          "address": "5-chōme-5-11 Ginza, Chuo City, Tokyo 104-0061",
+          "coordinates": {
+            "lat": 35.671242,
+            "lng": 139.7635013
+          },
+          "hours": "Tue–Fri 16:30–23:00; Sat·Sun 11:30–22:00 (Mon closed)",
+          "theme_tags": [
+            "restaurant"
+          ],
+          "google_place_id": "ChIJk4z8B-aLGGARzXBgQxRBGKY",
+          "image_query": "New TORIGIN 긴자 Tokyo",
+          "confidence": 0.65,
+          "mention_count": 1,
+          "_provenance_atoms": [
+            "atom_p2_002"
+          ],
+          "signature_line": "카마메시(솥밥) 1,500엔~ · 야키토리 코스 4,000엔~ · 1958년"
+        },
+        {
+          "entity_id": "ent_031",
+          "name": {
+            "native": "とんかつ 銀座 青木 8丁目店",
+            "romaji": "Tonkatsu Aoki Ginza 8-chome",
+            "ko": "돈카츠 아오키 긴자점"
+          },
+          "one_liner": {
+            "ko": "한 끼의 격식",
+            "_source_tier": 4,
+            "_source_kind": "theme_auto"
+          },
+          "address": "Japan, 〒104-0061 Tokyo, Chuo City, Ginza, 8-chōme−8−7 第3ソワレ・ドビル 地下 B1階",
+          "coordinates": {
+            "lat": 35.6682225,
+            "lng": 139.7614816
+          },
+          "hours": "Mon, Tue, Thu–Sun 11:00–15:00, 17:00–21:00 (Wed closed)",
+          "theme_tags": [
+            "restaurant"
+          ],
+          "google_place_id": "ChIJVZkxi-iLGGART2QFR7yDqIg",
+          "image_query": "Tonkatsu Aoki Ginza 8-chome 긴자 Tokyo",
+          "confidence": 0.65,
+          "mention_count": 1,
+          "_provenance_atoms": [
+            "atom_p1_005"
+          ],
+          "signature_line": "미슐랭 빕 구르망 · 점심 정식 2,500엔~ · 14석, 점심 1시간 대기"
+        },
+        {
+          "entity_id": "ent_030",
+          "name": {
+            "native": "マグロや 黒銀 築地本店",
+            "romaji": "Maguroya Kurogin",
+            "ko": "마구로야 쿠로긴 (츠키지 본점)"
+          },
+          "one_liner": {
+            "ko": "참치 좋아하면 여긴 그냥 천국. 츠키지 시장 서서 먹는 참치 초밥, 신선도 미쳤다 싶을 정도로 입에서 녹는 퀄리티",
+            "_source_tier": 1,
+            "_source_kind": "curator_note",
+            "_source_atom": "atom_p1_005"
+          },
+          "address": "4-chōme-10-12 Tsukiji, Chuo City, Tokyo 104-0045",
+          "coordinates": {
+            "lat": 35.6653156,
+            "lng": 139.769844
+          },
+          "hours": "08:00–13:00 daily",
+          "theme_tags": [
+            "restaurant"
+          ],
+          "google_place_id": "ChIJsQIg2t6LGGAR8w_OrbyqA3U",
+          "image_query": "Maguroya Kurogin 긴자 Tokyo",
+          "confidence": 0.65,
+          "mention_count": 1,
+          "_provenance_atoms": [
+            "atom_p1_005"
+          ],
+          "signature_line": "참치 모듬 사시미 1,500엔~ · 7시 오픈 · 츠키지 시장 외곽"
+        },
+        {
+          "entity_id": "ent_033",
+          "name": {
+            "native": "アメリカン",
+            "romaji": "American",
+            "ko": "아메리칸"
+          },
+          "one_liner": {
+            "ko": "한 잔의 시간",
+            "_source_tier": 4,
+            "_source_kind": "theme_auto"
+          },
+          "address": "4-chōme-11-7 Ginza, Chuo City, Tokyo 104-0061",
+          "coordinates": {
+            "lat": 35.6697806,
+            "lng": 139.7687303
+          },
+          "hours": "Mon–Fri 08:30–14:00 (Sat·Sun closed)",
+          "theme_tags": [
+            "cafe",
+            "restaurant"
+          ],
+          "google_place_id": "ChIJx5ZQv-CLGGARIrWPgSf4H0E",
+          "image_query": "American 긴자 Tokyo",
+          "confidence": 0.65,
+          "mention_count": 1,
+          "_provenance_atoms": [
+            "atom_p2_002"
+          ],
+          "signature_line": "거대 에그 샌드 1,400엔 · 1946년 · 한 입에 들어가지 않는 사이즈로 유명"
+        },
+        {
+          "entity_id": "ent_034",
+          "name": {
+            "native": "ウエスト 銀座本店",
+            "romaji": "Confectionery Ginza West",
+            "ko": "웨스트 긴자본점"
+          },
+          "one_liner": {
+            "ko": "한 잔의 시간",
+            "_source_tier": 4,
+            "_source_kind": "theme_auto"
+          },
+          "address": "7-chōme-3-6 Ginza, Chuo City, Tokyo 104-0061",
+          "coordinates": {
+            "lat": 35.670422099999996,
+            "lng": 139.76077279999998
+          },
+          "hours": "Mon–Fri 09:00–21:00; Sat·Sun 11:00–20:00",
+          "theme_tags": [
+            "cafe",
+            "bakery"
+          ],
+          "google_place_id": "ChIJmbgnLu-LGGARuo3v6lcM3Cc",
+          "image_query": "Confectionery Ginza West 긴자 Tokyo",
+          "confidence": 0.65,
+          "mention_count": 1,
+          "_provenance_atoms": [
+            "atom_p2_002"
+          ],
+          "signature_line": "리프파이 등 양과자, 1947년 · 1F 매장+2F 살롱 (커피 무료 리필)"
+        },
+        {
+          "entity_id": "ent_039",
+          "name": {
+            "native": "海鮮丼 つじ半 日本橋本店",
+            "romaji": "Tsujihan Nihonbashi",
+            "ko": "츠지한 니혼바시 본점"
+          },
+          "one_liner": {
+            "ko": "한 끼의 격식",
+            "_source_tier": 4,
+            "_source_kind": "theme_auto"
+          },
+          "address": "Japan, 〒103-0027 Tokyo, Chuo City, Nihonbashi, 3-chōme−1−15 久栄ビル 1F",
+          "coordinates": {
+            "lat": 35.6807167,
+            "lng": 139.7715771
+          },
+          "hours": "10:00–22:00 daily",
+          "theme_tags": [
+            "restaurant"
+          ],
+          "google_place_id": "ChIJU-JXDf2LGGARHsancfqkHyE",
+          "image_query": "Tsujihan Nihonbashi 긴자 Tokyo",
+          "confidence": 0.65,
+          "mention_count": 1,
+          "_provenance_atoms": [
+            "atom_p2_002"
+          ],
+          "signature_line": "카이센동(해산물 덮밥) 1,650엔~ · 점심 2시간 대기 일상 · 영업 시작 직후가 정답"
+        },
+        {
+          "entity_id": "ent_037",
+          "name": {
+            "native": "喫茶YOU 銀座",
+            "romaji": "Kissa You Ginza",
+            "ko": "킷사 유 긴자"
+          },
+          "one_liner": {
+            "ko": "한 잔의 시간",
+            "_source_tier": 4,
+            "_source_kind": "theme_auto"
+          },
+          "address": "Japan, 〒104-0061 Tokyo, Chuo City, Ginza, 4-chōme−13−17 高野ビル 1F·2F",
+          "coordinates": {
+            "lat": 35.669464399999995,
+            "lng": 139.7686589
+          },
+          "hours": "Mon, Tue, Thu, Fri 11:00–16:00; Sat·Sun 11:00–15:30 (Wed closed)",
+          "theme_tags": [
+            "cafe"
+          ],
+          "google_place_id": "ChIJayTpu-CLGGARluW4IBgm6kg",
+          "image_query": "Kissa You Ginza 긴자 Tokyo",
+          "confidence": 0.65,
+          "mention_count": 1,
+          "_provenance_atoms": [
+            "atom_p2_002"
+          ],
+          "signature_line": "푹신한 오므라이스 1,800엔 · 카운터·테이블 18석 · 영화 촬영지"
+        },
+        {
+          "entity_id": "ent_038",
+          "name": {
+            "native": "カフェ・トリコロール 本店",
+            "romaji": "Tricolore main shop",
+            "ko": "토리코로루 본점"
+          },
+          "one_liner": {
+            "ko": "한 잔의 시간",
+            "_source_tier": 4,
+            "_source_kind": "theme_auto"
+          },
+          "address": "5-chōme-9-17 Ginza, Chuo City, Tokyo 104-0061",
+          "coordinates": {
+            "lat": 35.6702154,
+            "lng": 139.7650596
+          },
+          "hours": "Mon, Wed–Sun 08:00–19:00 (Tue closed)",
+          "theme_tags": [
+            "cafe"
+          ],
+          "google_place_id": "ChIJC2oNCO-LGGARxV0IFmgNzJU",
+          "image_query": "Tricolore main shop 긴자 Tokyo",
+          "confidence": 0.65,
+          "mention_count": 1,
+          "_provenance_atoms": [
+            "atom_p2_002"
+          ],
+          "signature_line": "비엔나 커피 1,200엔 · 1936년 · 긴자 깃사텐의 정의"
+        }
+      ]
+    },
+    {
+      "id": "ch_harajuku_omotesando",
+      "order": 5,
+      "title_large": {
+        "primary": "하라주쿠 & 오모테산도",
+        "native": "原宿・表参道",
+        "local": "Harajuku & Omotesando"
+      },
+      "subtitle_intent": "다케시타의 활기, 오모테산도의 정적 — 한 블록 차이",
+      "narrative_position": "중간_1",
+      "card_count": 6,
+      "card_count_target": "6~10",
+      "cover_entity_id": "ent_040",
+      "cluster_center": {
+        "lat": 35.66819,
+        "lng": 139.7063
+      },
+      "cards": [
+        {
+          "entity_id": "ent_040",
+          "name": {
+            "native": "竹下通り",
+            "romaji": "Takeshita Street",
+            "ko": "다케시타 거리"
+          },
+          "one_liner": {
+            "ko": "개성 넘치는 패션·디저트, 젊은 문화·독특한 분위기",
+            "_source_tier": 1,
+            "_source_kind": "curator_note",
+            "_source_atom": "atom_p1_002"
+          },
+          "address": "Takeshita St, 1-chōme Jingūmae, Shibuya, Tokyo 150-0001",
+          "coordinates": {
+            "lat": 35.6710335,
+            "lng": 139.7051821
+          },
+          "hours": "24h (shops typically 10:00–20:00)",
+          "theme_tags": [
+            "street"
+          ],
+          "google_place_id": "ChIJlVne8bqMGGARtX5O6ojMvsI",
+          "image_query": "Takeshita Street 하라주쿠 & 오모테산도 Tokyo",
+          "confidence": 0.8,
+          "mention_count": 2,
+          "_provenance_atoms": [
+            "atom_p1_002",
+            "atom_p4_004"
+          ],
+          "signature_line": "350m 보행자 거리 · 마리온 크레페 본점 · 평일 오전이 그나마 한산"
+        },
+        {
+          "entity_id": "ent_041",
+          "name": {
+            "native": "表参道ヒルズ",
+            "romaji": "Omotesando Hills",
+            "ko": "오모테산도 힐스 (오모테산도 거리 anchor)"
+          },
+          "one_liner": {
+            "ko": "명품 브랜드·감성 카페가 이어진 세련된 거리, 건축 디자인",
+            "_source_tier": 1,
+            "_source_kind": "curator_note",
+            "_source_atom": "atom_p1_002"
+          },
+          "address": "4-chōme-12-10 Jingūmae, Shibuya, Tokyo 150-0001",
+          "coordinates": {
+            "lat": 35.6672869,
+            "lng": 139.7086162
+          },
+          "hours": "11:00–20:00 daily",
+          "theme_tags": [
+            "shop"
+          ],
+          "google_place_id": "ChIJCx6jgqGMGGARpfB5UIap15k",
+          "image_query": "Omotesando Hills 하라주쿠 & 오모테산도 Tokyo",
+          "confidence": 0.8,
+          "mention_count": 2,
+          "_provenance_atoms": [
+            "atom_p1_002",
+            "atom_p4_004"
+          ],
+          "signature_line": "안도 다다오 설계 · 6개 층 나선형 동선 · 럭셔리 브랜드"
+        },
+        {
+          "entity_id": "ent_044",
+          "name": {
+            "native": "POP MART 原宿",
+            "romaji": "POP MART Harajuku Store",
+            "ko": "POP MART 하라주쿠"
+          },
+          "one_liner": {
+            "ko": "한 손에 담을 도쿄",
+            "_source_tier": 4,
+            "_source_kind": "theme_auto"
+          },
+          "address": "6-chōme-29-10 Jingūmae, Shibuya, Tokyo 150-0001",
+          "coordinates": {
+            "lat": 35.6676526,
+            "lng": 139.7045849
+          },
+          "hours": "11:00–21:00 daily",
+          "theme_tags": [
+            "shop"
+          ],
+          "google_place_id": "ChIJR3kmVjqNGGARqR4CEF5PRa8",
+          "image_query": "POP MART Harajuku Store 하라주쿠 & 오모테산도 Tokyo",
+          "confidence": 0.65,
+          "mention_count": 1,
+          "_provenance_atoms": [
+            "atom_p3_006"
+          ],
+          "signature_line": "Labubu 등 블라인드 박스 12~14,000엔 · 줄 30분~2시간"
+        },
+        {
+          "entity_id": "ent_056",
+          "name": {
+            "native": "atmos BLUE OMOTESANDO",
+            "romaji": "atmos BLUE OMOTESANDO",
+            "ko": "atmos BLUE OMOTESANDO"
+          },
+          "one_liner": {
+            "ko": "한 손에 담을 도쿄",
+            "_source_tier": 4,
+            "_source_kind": "theme_auto"
+          },
+          "address": "Japan, 〒150-0001 Tokyo, Shibuya, Jingūmae, 4-chōme−29−4 Barbizon78",
+          "coordinates": {
+            "lat": 35.668303699999996,
+            "lng": 139.70641469999998
+          },
+          "hours": "11:00–20:00 daily",
+          "theme_tags": [
+            "shop"
+          ],
+          "google_place_id": "ChIJCWDvd6SMGGARRLLkE1MmevI",
+          "image_query": "atmos BLUE OMOTESANDO 하라주쿠 & 오모테산도 Tokyo",
+          "confidence": 0.65,
+          "mention_count": 1,
+          "_provenance_atoms": [
+            "atom_p3_006"
+          ],
+          "signature_line": "한정판 스니커즈 · 캐주얼 라인은 atmos pink 별도 매장"
+        },
+        {
+          "entity_id": "ent_042",
+          "name": {
+            "native": "キャットストリート",
+            "romaji": "Cat Street",
+            "ko": "캣 스트리트"
+          },
+          "one_liner": {
+            "ko": "걷는 것이 곧 발견",
+            "_source_tier": 4,
+            "_source_kind": "theme_auto"
+          },
+          "address": "Cat St, Shibuya, Tokyo",
+          "coordinates": {
+            "lat": 35.6671358,
+            "lng": 139.7064336
+          },
+          "hours": "24h",
+          "theme_tags": [
+            "street"
+          ],
+          "google_place_id": "Eh1DYXQgU3QsIFNoaWJ1eWEsIFRva3lvLCBKYXBhbiIuKiwKFAoSCde5GQijjBhgEdADRQTN6CtGEhQKEgnlXVPkoowYYBGVMuIGuMgZSA",
+          "image_query": "Cat Street 하라주쿠 & 오모테산도 Tokyo",
+          "confidence": 0.65,
+          "mention_count": 1,
+          "_provenance_atoms": [
+            "atom_p4_004"
+          ],
+          "signature_line": "하라주쿠~오모테산도 잇는 뒷골목 · 빈티지·스트릿 브랜드 · 보행자 우대"
+        },
+        {
+          "entity_id": "ent_043",
+          "name": {
+            "native": "キデイランド原宿",
+            "romaji": "KIDDY LAND Harajuku",
+            "ko": "키디랜드 하라주쿠점"
+          },
+          "one_liner": {
+            "ko": "한 손에 담을 도쿄",
+            "_source_tier": 4,
+            "_source_kind": "theme_auto"
+          },
+          "address": "6-chōme-1-9 Jingūmae, Shibuya, Tokyo 150-0001",
+          "coordinates": {
+            "lat": 35.667733,
+            "lng": 139.7065474
+          },
+          "hours": "11:00–20:00 daily",
+          "theme_tags": [
+            "shop"
+          ],
+          "google_place_id": "ChIJu1uP9aOMGGARiZH5QxSqDm0",
+          "image_query": "KIDDY LAND Harajuku 하라주쿠 & 오모테산도 Tokyo",
+          "confidence": 0.65,
+          "mention_count": 1,
+          "_provenance_atoms": [
+            "atom_p3_006"
+          ],
+          "signature_line": "5층 캐릭터 백화점 · 산리오·스누피·디즈니 · 1F는 시즌별 콜라보"
+        }
+      ]
+    },
+    {
+      "id": "ch_asakusa_skytree",
+      "order": 6,
+      "title_large": {
+        "primary": "아사쿠사 & 스카이트리",
+        "native": "浅草・東京スカイツリー",
+        "local": "Asakusa & Skytree"
+      },
+      "subtitle_intent": "센소지에서 스카이트리까지 도보 20분, 천 년이 한 시야에",
+      "narrative_position": "중간_2",
+      "card_count": 13,
+      "card_count_target": "6~10",
+      "cover_entity_id": "ent_049",
+      "cluster_center": {
+        "lat": 35.71083,
+        "lng": 139.80161
+      },
+      "cards": [
+        {
+          "entity_id": "ent_049",
+          "name": {
+            "native": "東京スカイツリー",
+            "romaji": "Tokyo Skytree",
+            "ko": "도쿄 스카이트리"
+          },
+          "one_liner": {
+            "ko": "한 눈에 담는 도쿄",
+            "_source_tier": 4,
+            "_source_kind": "theme_auto"
+          },
+          "address": "1-chōme-1-2 Oshiage, Sumida City, Tokyo 131-0045",
+          "coordinates": {
+            "lat": 35.7102266,
+            "lng": 139.81069399999998
+          },
+          "hours": "10:00–22:00 daily",
+          "theme_tags": [
+            "viewpoint"
+          ],
+          "google_place_id": "ChIJAeuPnfuPGGARO2sUV54UZh0",
+          "image_query": "Tokyo Skytree 아사쿠사 & 스카이트리 Tokyo",
+          "confidence": 0.8,
+          "mention_count": 2,
+          "_provenance_atoms": [
+            "atom_p3_005",
+            "atom_p4_004"
+          ],
+          "signature_line": "Tembo Deck (350m) 2,100엔 · Galleria (450m) 추가 1,000엔 · 사전 예매"
+        },
+        {
+          "entity_id": "ent_050",
+          "name": {
+            "native": "浅草寺",
+            "romaji": "Sensō-ji",
+            "ko": "센소지"
+          },
+          "one_liner": {
+            "ko": "도쿄의 한 장면",
+            "_source_tier": 4,
+            "_source_kind": "theme_auto"
+          },
+          "address": "2-chōme-3-1 Asakusa, Taito City, Tokyo 111-0032",
+          "coordinates": {
+            "lat": 35.7147651,
+            "lng": 139.7966553
+          },
+          "hours": "06:00–17:00 (varies by season; grounds 24h)",
+          "theme_tags": [
+            "landmark"
+          ],
+          "google_place_id": "ChIJ8T1GpMGOGGARDYGSgpooDWw",
+          "image_query": "Sensō-ji 아사쿠사 & 스카이트리 Tokyo",
+          "confidence": 0.8,
+          "mention_count": 2,
+          "_provenance_atoms": [
+            "atom_p3_002",
+            "atom_p4_004"
+          ],
+          "signature_line": "무료 · 도쿄에서 가장 오래된 사찰, 645년 · 본당 야간 라이트업"
+        },
+        {
+          "entity_id": "ent_051",
+          "name": {
+            "native": "仲見世通り",
+            "romaji": "Nakamise Shopping Street",
+            "ko": "나카미세 쇼핑가"
+          },
+          "one_liner": {
+            "ko": "도쿄의 한 장면",
+            "_source_tier": 4,
+            "_source_kind": "theme_auto"
+          },
+          "address": "1-chōme-36-3 Asakusa, Taito City, Tokyo 111-0032",
+          "coordinates": {
+            "lat": 35.7118413,
+            "lng": 139.7964542
+          },
+          "hours": "Most shops 09:00–20:00",
+          "theme_tags": [
+            "landmark",
+            "shop",
+            "market"
+          ],
+          "google_place_id": "ChIJPd37MMGOGGARvJ2hfxoiNVE",
+          "image_query": "Nakamise Shopping Street 아사쿠사 & 스카이트리 Tokyo",
+          "confidence": 0.65,
+          "mention_count": 1,
+          "_provenance_atoms": [
+            "atom_p4_004"
+          ],
+          "signature_line": "250m, 250개 상점 · 닌교야키·센베이 · 평일 오전이 한산"
+        },
+        {
+          "entity_id": "ent_052",
+          "name": {
+            "native": "隅田公園",
+            "romaji": "Sumida Park",
+            "ko": "스미다 공원"
+          },
+          "one_liner": {
+            "ko": "도시의 숨",
+            "_source_tier": 4,
+            "_source_kind": "theme_auto"
+          },
+          "address": "1 Chome-1 Hanakawado, Taito City, Tokyo 111-0033",
+          "coordinates": {
+            "lat": 35.7137617,
+            "lng": 139.80145059999998
+          },
+          "hours": "24h",
+          "theme_tags": [
+            "park"
+          ],
+          "google_place_id": "ChIJZ4oTScOOGGAR16BfN7ADXMk",
+          "image_query": "Sumida Park 아사쿠사 & 스카이트리 Tokyo",
+          "confidence": 0.65,
+          "mention_count": 1,
+          "_provenance_atoms": [
+            "atom_p4_004"
+          ],
+          "signature_line": "무료 · 스카이트리 정면 뷰 · 4월 벚꽃 270그루 · 7월 마지막 토요일 불꽃놀이"
+        },
+        {
+          "entity_id": "ent_skytree_photo_05",
+          "name": {
+            "native": "(撮影スポット) 喜楽苑前 バス停",
+            "romaji": "Kiraku-en bus-stop viewpoint",
+            "ko": "스카이트리 뷰 버스정류장 (Kiraku-en 앞)"
+          },
+          "one_liner": {
+            "ko": "스카이트리를 가장 크게",
+            "_source_tier": 1,
+            "_source_kind": "curator_note",
+            "_source_atom": "atom_p3_005"
+          },
+          "address": "1 Chome-10-5 Narihira, Sumida City, Tokyo 130-0002",
+          "coordinates": {
+            "lat": 35.71,
+            "lng": 139.8095
+          },
+          "hours": "24h (street)",
+          "theme_tags": [
+            "photo_spot",
+            "viewpoint"
+          ],
+          "google_place_id": null,
+          "image_query": "Kiraku-en bus-stop viewpoint 스미다 나리히라 Tokyo",
+          "confidence": 0.65,
+          "mention_count": 1,
+          "_provenance_atoms": [
+            "atom_p3_005"
+          ],
+          "signature_line": "스카이트리가 가장 크게 보이는 좌표 · 야간 권장"
+        },
+        {
+          "entity_id": "ent_skytree_photo_01",
+          "name": {
+            "native": "(撮影スポット) 浅草1丁目商店街",
+            "romaji": "Asakusa 1-chome shopping street viewpoint",
+            "ko": "스카이트리 포토 스팟 #1 (아사쿠사 1초메 상점가)"
+          },
+          "one_liner": {
+            "ko": "노을·상점가 + 스카이트리",
+            "_source_tier": 1,
+            "_source_kind": "curator_note",
+            "_source_atom": "atom_p3_005"
+          },
+          "address": "1 Chome-10 Asakusa, Taito City, Tokyo 111-0032",
+          "coordinates": {
+            "lat": 35.711,
+            "lng": 139.796
+          },
+          "hours": "24h (street)",
+          "theme_tags": [
+            "photo_spot",
+            "viewpoint"
+          ],
+          "google_place_id": null,
+          "image_query": "Asakusa 1-chome shopping street viewpoint 아사쿠사 Tokyo",
+          "confidence": 0.65,
+          "mention_count": 1,
+          "_provenance_atoms": [
+            "atom_p3_005"
+          ],
+          "signature_line": "노을 직전 · 상점 처마와 스카이트리 한 화면"
+        },
+        {
+          "entity_id": "ent_019",
+          "name": {
+            "native": "浅草牛かつ",
+            "romaji": "Asakusa Gyukatsu",
+            "ko": "아사쿠사 규카츠"
+          },
+          "one_liner": {
+            "ko": "웨이팅 심함 주의.. 인생 규카츠를 만나따...",
+            "_source_tier": 1,
+            "_source_kind": "curator_note",
+            "_source_atom": "atom_p4_002"
+          },
+          "address": "Japan, 〒111-0034 Tokyo, Taito City, Kaminarimon, 2-chōme−17−10 雷門上村ビル 1F·B1F",
+          "coordinates": {
+            "lat": 35.7107673,
+            "lng": 139.7959519
+          },
+          "hours": "11:00–22:00 daily",
+          "theme_tags": [
+            "restaurant"
+          ],
+          "google_place_id": "ChIJAQBs38aOGGARoOBOR4LoBdI",
+          "image_query": "Asakusa Gyukatsu 아사쿠사 & 스카이트리 Tokyo",
+          "confidence": 0.65,
+          "mention_count": 1,
+          "_provenance_atoms": [
+            "atom_p4_002"
+          ],
+          "signature_line": "와규 카츠 정식 2,200엔~ · 11석, 점심 1~2시간 대기"
+        },
+        {
+          "entity_id": "ent_054",
+          "name": {
+            "native": "浅草文化観光センター",
+            "romaji": "Asakusa Culture Tourist Information Center",
+            "ko": "아사쿠사 문화관광센터"
+          },
+          "one_liner": {
+            "ko": "수많은 상점들과 스카이트리를 함께 볼 수 있는 장소로 노을질 시간에 맞춰가는 거 대대대강추!!!",
+            "_source_tier": 1,
+            "_source_kind": "curator_note",
+            "_source_atom": "atom_p3_005"
+          },
+          "address": "Japan, 〒111-0034 Tokyo, Taito City, Kaminarimon, 2-chōme−18−9 浅草文化観光センター",
+          "coordinates": {
+            "lat": 35.7107074,
+            "lng": 139.7965461
+          },
+          "hours": "09:00–20:00 daily (observation deck free, 8F)",
+          "theme_tags": [
+            "exhibition",
+            "viewpoint"
+          ],
+          "google_place_id": "ChIJr2cNBsGOGGARSX3xfkspQHc",
+          "image_query": "Asakusa Culture Tourist Information Center 아사쿠사 & 스카이트리 Tokyo",
+          "confidence": 0.65,
+          "mention_count": 1,
+          "_provenance_atoms": [
+            "atom_p3_005"
+          ],
+          "signature_line": "무료 · 8F 무료 전망대 · 센소지 정면 부감"
+        },
+        {
+          "entity_id": "ent_skytree_photo_04",
+          "name": {
+            "native": "(撮影スポット) 吾妻橋 駐車場前路地",
+            "romaji": "Azumabashi parking-lot alley",
+            "ko": "아즈마바시 골목 (주차장 입구)"
+          },
+          "one_liner": {
+            "ko": "도심 골목 (근처 팡메종 소금빵집)",
+            "_source_tier": 1,
+            "_source_kind": "curator_note",
+            "_source_atom": "atom_p3_005"
+          },
+          "address": "1 Chome-20 Azumabashi, Sumida City, Tokyo 130-0001",
+          "coordinates": {
+            "lat": 35.7085,
+            "lng": 139.8025
+          },
+          "hours": "24h (street)",
+          "theme_tags": [
+            "photo_spot",
+            "viewpoint"
+          ],
+          "google_place_id": null,
+          "image_query": "Azumabashi parking-lot alley 스미다 아즈마바시 Tokyo",
+          "confidence": 0.65,
+          "mention_count": 1,
+          "_provenance_atoms": [
+            "atom_p3_005"
+          ],
+          "signature_line": "골목 끝 스카이트리 · 옆 팡메종 소금빵 함께"
+        },
+        {
+          "entity_id": "ent_skytree_photo_03",
+          "name": {
+            "native": "十間橋",
+            "romaji": "Jukken-bashi",
+            "ko": "쥬켄다리 (반영샷)"
+          },
+          "one_liner": {
+            "ko": "강물 반영샷",
+            "_source_tier": 1,
+            "_source_kind": "curator_note",
+            "_source_atom": "atom_p3_005"
+          },
+          "address": "5 Chome-15-4 Narihira, Sumida City, Tokyo 130-0002",
+          "coordinates": {
+            "lat": 35.7099,
+            "lng": 139.8123
+          },
+          "hours": "24h (street)",
+          "theme_tags": [
+            "photo_spot",
+            "viewpoint"
+          ],
+          "google_place_id": null,
+          "image_query": "Jukken-bashi 스미다 나리히라 Tokyo",
+          "confidence": 0.65,
+          "mention_count": 1,
+          "_provenance_atoms": [
+            "atom_p3_005"
+          ],
+          "signature_line": "강물 위 스카이트리 미러링 · 무풍 황혼이 결정적 순간"
+        },
+        {
+          "entity_id": "ent_skytree_photo_02",
+          "name": {
+            "native": "(撮影スポット) 十間橋 横の路地",
+            "romaji": "Jukken-bashi side alley",
+            "ko": "쥬켄다리 옆 골목"
+          },
+          "one_liner": {
+            "ko": "조용한 골목",
+            "_source_tier": 1,
+            "_source_kind": "curator_note",
+            "_source_atom": "atom_p3_005"
+          },
+          "address": "5 Chome-15-4 Narihira, Sumida City, Tokyo 130-0002",
+          "coordinates": {
+            "lat": 35.71,
+            "lng": 139.8125
+          },
+          "hours": "24h (street)",
+          "theme_tags": [
+            "photo_spot",
+            "viewpoint"
+          ],
+          "google_place_id": null,
+          "image_query": "Jukken-bashi side alley 스미다 나리히라 Tokyo",
+          "confidence": 0.65,
+          "mention_count": 1,
+          "_provenance_atoms": [
+            "atom_p3_005"
+          ],
+          "signature_line": "차·인적 적은 좁은 골목 포토 · 인물 서있는 샷 추천"
+        },
+        {
+          "entity_id": "ent_053",
+          "name": {
+            "native": "かっぱ橋道具街",
+            "romaji": "Kappabashi Kitchen Supply Town",
+            "ko": "캇파바시 거리"
+          },
+          "one_liner": {
+            "ko": "도쿄의 한 장면",
+            "_source_tier": 4,
+            "_source_kind": "theme_auto"
+          },
+          "address": "3-chōme-18-2 Matsugaya, Taito City, Tokyo 110-0036",
+          "coordinates": {
+            "lat": 35.7105797,
+            "lng": 139.7879645
+          },
+          "hours": "Mon–Sat 10:00–17:00 (Sun mostly closed)",
+          "theme_tags": [
+            "landmark",
+            "market"
+          ],
+          "google_place_id": "ChIJXYV-6JWOGGAR85vIZbM1RCE",
+          "image_query": "Kappabashi Kitchen Supply Town 아사쿠사 & 스카이트리 Tokyo",
+          "confidence": 0.65,
+          "mention_count": 1,
+          "_provenance_atoms": [
+            "atom_p4_004"
+          ],
+          "signature_line": "800m 주방용품 거리 · 식칼·도자기·식품 모형 · 일요일 휴무 다수"
+        },
+        {
+          "entity_id": "ent_055",
+          "name": {
+            "native": "パンメゾン 墨田浅草通り店",
+            "romaji": "pain maison Sumida Asakusa Dori Street",
+            "ko": "팡메종 (소금빵)"
+          },
+          "one_liner": {
+            "ko": "주차장이 있는 골목에 입구에서 스카이트리와 함께 사진찍기 좋음! 근처에 유명한 팡메종 소금빵집도 있음",
+            "_source_tier": 1,
+            "_source_kind": "curator_note",
+            "_source_atom": "atom_p3_005"
+          },
+          "address": "2-chōme-4-1 Azumabashi, Sumida City, Tokyo 130-0001",
+          "coordinates": {
+            "lat": 35.7087171,
+            "lng": 139.80239400000002
+          },
+          "hours": "Mon, Wed–Sun 08:30–19:00 (Tue closed)",
+          "theme_tags": [
+            "bakery"
+          ],
+          "google_place_id": "ChIJ5cwb68-OGGAREDbK2aU3Zxc",
+          "image_query": "pain maison Sumida Asakusa Dori Street 아사쿠사 & 스카이트리 Tokyo",
+          "confidence": 0.65,
+          "mention_count": 1,
+          "_provenance_atoms": [
+            "atom_p3_005"
+          ],
+          "signature_line": "소금빵 240엔 · 카운터 5명 · 야끼타테(갓 구운 것)를 노린다"
+        }
+      ]
+    },
+    {
+      "id": "ch_ueno_akihabara",
+      "order": 7,
+      "title_large": {
+        "primary": "우에노 & 아키하바라",
+        "native": "上野・秋葉原",
+        "local": "Ueno & Akihabara"
+      },
+      "subtitle_intent": "박물관의 정적, 메이드 카페의 소란 — 두 정거장 사이",
+      "narrative_position": "중간_3",
+      "card_count": 6,
+      "card_count_target": "5~8",
+      "cover_entity_id": "ent_058",
+      "cluster_center": {
+        "lat": 35.70838,
+        "lng": 139.77274
+      },
+      "cards": [
+        {
+          "entity_id": "ent_058",
+          "name": {
+            "native": "ドン・キホーテ 上野店",
+            "romaji": "Don Quijote Ueno",
+            "ko": "돈키호테 우에노점"
+          },
+          "one_liner": {
+            "ko": "한 손에 담을 도쿄",
+            "_source_tier": 4,
+            "_source_kind": "theme_auto"
+          },
+          "address": "3-chōme-38-10 Yushima, Bunkyo City, Tokyo 113-0034",
+          "coordinates": {
+            "lat": 35.7080768,
+            "lng": 139.7709079
+          },
+          "hours": "09:00–04:00 daily",
+          "theme_tags": [
+            "shop"
+          ],
+          "google_place_id": "ChIJm32JTyCMGGARUkmHPgH1t5c",
+          "image_query": "Don Quijote Ueno 우에노 & 아키하바라 Tokyo",
+          "confidence": 0.8,
+          "mention_count": 2,
+          "_provenance_atoms": [
+            "atom_p3_002",
+            "atom_p3_006"
+          ],
+          "signature_line": "24h · 면세 5,000엔 이상 · 우에노역 도보 5분"
+        },
+        {
+          "entity_id": "ent_045",
+          "name": {
+            "native": "上野恩賜公園",
+            "romaji": "Ueno Park",
+            "ko": "우에노 공원"
+          },
+          "one_liner": {
+            "ko": "벚꽃 시즌 가장 먼저 떠오르는 도쿄 대표 공원. 박물관·미술관·연못·산책길이 한데",
+            "_source_tier": 1,
+            "_source_kind": "curator_note",
+            "_source_atom": "atom_p1_006"
+          },
+          "address": "4 Uenokoen, Taito City, Tokyo 110-0007",
+          "coordinates": {
+            "lat": 35.7147557,
+            "lng": 139.7734312
+          },
+          "hours": "05:00–23:00 daily",
+          "theme_tags": [
+            "park",
+            "landmark"
+          ],
+          "google_place_id": "ChIJw2qQRZuOGGARWmROEiM2y7E",
+          "image_query": "Ueno Park 우에노 & 아키하바라 Tokyo",
+          "confidence": 0.8,
+          "mention_count": 2,
+          "_provenance_atoms": [
+            "atom_p1_006",
+            "atom_p4_004"
+          ],
+          "signature_line": "무료 · 박물관·동물원·시노바즈 연못 통합 · 4월 벚꽃 1,000그루"
+        },
+        {
+          "entity_id": "ent_057",
+          "name": {
+            "native": "AKIHABARAコトブキヤ",
+            "romaji": "AKIHABARA KOTOBUKIYA",
+            "ko": "고토부키야 아키하바라관"
+          },
+          "one_liner": {
+            "ko": "한 손에 담을 도쿄",
+            "_source_tier": 4,
+            "_source_kind": "theme_auto"
+          },
+          "address": "Okajima, 1-chōme-8-8 Sotokanda, Chiyoda City, Tokyo 101-0021",
+          "coordinates": {
+            "lat": 35.6992291,
+            "lng": 139.7704606
+          },
+          "hours": "11:00–20:00 daily",
+          "theme_tags": [
+            "shop"
+          ],
+          "google_place_id": "ChIJd138lh2MGGARQ1jRla0xMQ4",
+          "image_query": "AKIHABARA KOTOBUKIYA 우에노 & 아키하바라 Tokyo",
+          "confidence": 0.65,
+          "mention_count": 1,
+          "_provenance_atoms": [
+            "atom_p3_006"
+          ],
+          "signature_line": "피규어 전문 · ARTFX 시리즈 본진 · 4F 한정판 코너"
+        },
+        {
+          "entity_id": "ent_046",
+          "name": {
+            "native": "東京国立博物館",
+            "romaji": "Tokyo National Museum",
+            "ko": "도쿄 국립박물관"
+          },
+          "one_liner": {
+            "ko": "도쿄의 한 장면",
+            "_source_tier": 4,
+            "_source_kind": "theme_auto"
+          },
+          "address": "13-9 Uenokōen, Taito City, Tokyo 110-8712",
+          "coordinates": {
+            "lat": 35.7188351,
+            "lng": 139.7765215
+          },
+          "hours": "Tue–Thu, Sun 09:30–17:00; Fri·Sat 09:30–20:00 (Mon closed)",
+          "theme_tags": [
+            "landmark",
+            "exhibition"
+          ],
+          "google_place_id": "ChIJEX3XFIOOGGAR3XdJvRjWLyM",
+          "image_query": "Tokyo National Museum 우에노 & 아키하바라 Tokyo",
+          "confidence": 0.65,
+          "mention_count": 1,
+          "_provenance_atoms": [
+            "atom_p4_004"
+          ],
+          "signature_line": "입장 1,000엔 · 국보 89점 · 본관·동양관 두 동 모두 봐야"
+        },
+        {
+          "entity_id": "ent_048",
+          "name": {
+            "native": "まんだらけ コンプレックス",
+            "romaji": "Mandarake Complex",
+            "ko": "만다라케 콤플렉스"
+          },
+          "one_liner": {
+            "ko": "한 손에 담을 도쿄",
+            "_source_tier": 4,
+            "_source_kind": "theme_auto"
+          },
+          "address": "3-chōme-11-12 Sotokanda, Chiyoda City, Tokyo 101-0021",
+          "coordinates": {
+            "lat": 35.700373299999995,
+            "lng": 139.77050309999998
+          },
+          "hours": "12:00–20:00 daily",
+          "theme_tags": [
+            "shop",
+            "bookshop"
+          ],
+          "google_place_id": "ChIJm3WItR2MGGAR05t5cpt7U4w",
+          "image_query": "Mandarake Complex 우에노 & 아키하바라 Tokyo",
+          "confidence": 0.65,
+          "mention_count": 1,
+          "_provenance_atoms": [
+            "atom_p3_006"
+          ],
+          "signature_line": "8층 중고 만화·피규어·코스튬 미궁 · 매니아 성지"
+        },
+        {
+          "entity_id": "ent_047",
+          "name": {
+            "native": "アメ横",
+            "romaji": "Ameyoko market",
+            "ko": "아메야 요코초"
+          },
+          "one_liner": {
+            "ko": "도쿄의 한 장면",
+            "_source_tier": 4,
+            "_source_kind": "theme_auto"
+          },
+          "address": "6-chōme-10-7 Ueno, Taito City, Tokyo 110-0005",
+          "coordinates": {
+            "lat": 35.7090028,
+            "lng": 139.7746259
+          },
+          "hours": "Most stalls 10:00–20:00",
+          "theme_tags": [
+            "landmark",
+            "market"
+          ],
+          "google_place_id": "ChIJh7eDrwCPGGARCs9fpCkKS2U",
+          "image_query": "Ameyoko market 우에노 & 아키하바라 Tokyo",
+          "confidence": 0.65,
+          "mention_count": 1,
+          "_provenance_atoms": [
+            "atom_p4_004"
+          ],
+          "signature_line": "JR 우에노~오카치마치 400m 시장 · 해산물·견과·드러그스토어 · 흥정 가능"
+        }
+      ]
+    },
+    {
+      "id": "ch_shimokitazawa",
+      "order": 8,
+      "title_large": {
+        "primary": "시모키타자와",
+        "native": "下北沢",
+        "local": "Shimokitazawa"
+      },
+      "subtitle_intent": "도쿄 힙스터가 일요일에 가는 동네",
+      "narrative_position": "이색_1",
+      "card_count": 3,
+      "card_count_target": "6~10",
+      "cover_entity_id": "ent_016",
+      "cluster_center": {
+        "lat": 35.66189,
+        "lng": 139.66816
+      },
+      "cards": [
+        {
+          "entity_id": "ent_016",
+          "name": {
+            "native": "下北沢駅",
+            "romaji": "Shimo-Kitazawa Station",
+            "ko": "시모키타자와역"
+          },
+          "one_liner": {
+            "ko": "이 도시의 동맥",
+            "_source_tier": 4,
+            "_source_kind": "theme_auto"
+          },
+          "address": "2-chōme-24-2 Kitazawa, Setagaya City, Tokyo 155-0031",
+          "coordinates": {
+            "lat": 35.6615848,
+            "lng": 139.6668918
+          },
+          "hours": "24h",
+          "theme_tags": [
+            "transit"
+          ],
+          "google_place_id": "ChIJM2EpmmvzGGARXV5tNZ86xGY",
+          "image_query": "Shimo-Kitazawa Station 시모키타자와 Tokyo",
+          "confidence": 0.65,
+          "mention_count": 1,
+          "_provenance_atoms": [
+            "atom_p4_004"
+          ],
+          "signature_line": "오다큐선·이노카시라선 환승 · 시부야에서 6분"
+        },
+        {
+          "entity_id": "ent_014",
+          "name": {
+            "native": "キッサレイ",
+            "romaji": "Kissa Ray",
+            "ko": "킷사 레이"
+          },
+          "one_liner": {
+            "ko": "한 잔의 시간",
+            "_source_tier": 4,
+            "_source_kind": "theme_auto"
+          },
+          "address": "Japan, 〒155-0031 Tokyo, Setagaya City, Kitazawa, 3-chōme−20−13 フローラ松美 1F",
+          "coordinates": {
+            "lat": 35.6639883,
+            "lng": 139.6697543
+          },
+          "hours": "Mon–Fri 09:00–19:00; Sat–Sun 09:00–21:00",
+          "theme_tags": [
+            "cafe"
+          ],
+          "google_place_id": "ChIJC5-ZVUjzGGAR9nSrK8ySsG4",
+          "image_query": "Kissa Ray 시모키타자와 Tokyo",
+          "confidence": 0.65,
+          "mention_count": 1,
+          "_provenance_atoms": [
+            "atom_p2_002"
+          ],
+          "signature_line": "핸드드립 커피 · 시모키타 골목의 작은 카페 · 디저트 함께"
+        },
+        {
+          "entity_id": "ent_015",
+          "name": {
+            "native": "ひろき 下北沢店",
+            "romaji": "HIROKI Okonomiyaki",
+            "ko": "히로키 시모키타자와점"
+          },
+          "one_liner": {
+            "ko": "가리비 메뉴 필수! 히로키 오코노미야끼 진촤 마시쒸~",
+            "_source_tier": 1,
+            "_source_kind": "curator_note",
+            "_source_atom": "atom_p4_002"
+          },
+          "address": "Japan, 〒155-0031 Tokyo, Setagaya City, Kitazawa, 2-chōme−14−14 ハニー下北沢 1F",
+          "coordinates": {
+            "lat": 35.6601056,
+            "lng": 139.66782999999998
+          },
+          "hours": "Weekday 12:00–14:00, 17:00–21:00; Weekend 12:00–21:00",
+          "theme_tags": [
+            "restaurant"
+          ],
+          "google_place_id": "ChIJq6qmfmnzGGARHA2UtKaZATo",
+          "image_query": "HIROKI Okonomiyaki 시모키타자와 Tokyo",
+          "confidence": 0.65,
+          "mention_count": 1,
+          "_provenance_atoms": [
+            "atom_p4_002"
+          ],
+          "signature_line": "오코노미야끼·몬자야끼 · 1인 2,500엔~ · 카운터 8석, 줄 1시간"
+        }
+      ]
+    },
+    {
+      "id": "ch_azabujuban_mongennakacho",
+      "order": 9,
+      "title_large": {
+        "primary": "아자부주반 & 몬젠나카초",
+        "native": "麻布十番・門前仲町",
+        "local": "Azabu-Juban & Monzen-Nakacho"
+      },
+      "subtitle_intent": "관광객이 들르지 않는 동네의 미식",
+      "narrative_position": "이색_2_가장끝",
+      "card_count": 2,
+      "card_count_target": "4~6",
+      "cover_entity_id": "ent_018",
+      "cluster_center": {
+        "lat": 35.66498,
+        "lng": 139.76615
+      },
+      "cards": [
+        {
+          "entity_id": "ent_018",
+          "name": {
+            "native": "とんかつ 丸七 門前仲町",
+            "romaji": "Tonkatsu Marushichi | Monzen-nakacho",
+            "ko": "마루시치 혼텐 (몬젠나카초 본점)"
+          },
+          "one_liner": {
+            "ko": "장원영 돈까스 맛집으로 유명한 곳! 돈까스 두께 실화냐구..",
+            "_source_tier": 1,
+            "_source_kind": "curator_note",
+            "_source_atom": "atom_p4_002"
+          },
+          "address": "1-chōme-12-5 Monzennakachō, Koto City, Tokyo 135-0048",
+          "coordinates": {
+            "lat": 35.6735036,
+            "lng": 139.794844
+          },
+          "hours": "Mon, Thu–Sun 11:00–13:10, 17:00–19:10 (Tue·Wed closed)",
+          "theme_tags": [
+            "restaurant"
+          ],
+          "google_place_id": "ChIJkXknMESJGGARFosbNVVwaKQ",
+          "image_query": "Tonkatsu Marushichi | Monzen-nakacho 아자부주반 & 몬젠나카초 Tokyo",
+          "confidence": 0.65,
+          "mention_count": 1,
+          "_provenance_atoms": [
+            "atom_p4_002"
+          ],
+          "signature_line": "카츠동 1,500엔 · 카츠 샌드 1,400엔 · 화·수 휴무"
+        },
+        {
+          "entity_id": "ent_017",
+          "name": {
+            "native": "KABUN-AZABUJUBAN (火紋)",
+            "romaji": "KABUN-AZABUJUBAN",
+            "ko": "카분 아자부주반"
+          },
+          "one_liner": {
+            "ko": "한 끼의 격식",
+            "_source_tier": 4,
+            "_source_kind": "theme_auto"
+          },
+          "address": "Japan, 〒106-0044 Tokyo, Minato City, Higashiazabu, 3-chōme−8−10 バーリータワーズ 1F",
+          "coordinates": {
+            "lat": 35.656457,
+            "lng": 139.7374466
+          },
+          "hours": "Mon–Thu 17:00–01:00; Fri 17:00–03:00; Sat–Sun 17:00–24:00",
+          "theme_tags": [
+            "restaurant"
+          ],
+          "google_place_id": "ChIJ-9SQSoqLGGARET_Fzx7vFPM",
+          "image_query": "KABUN-AZABUJUBAN 아자부주반 & 몬젠나카초 Tokyo",
+          "confidence": 0.65,
+          "mention_count": 1,
+          "_provenance_atoms": [
+            "atom_p4_002"
+          ],
+          "signature_line": "야키니쿠 · 1인 5,000~8,000엔 · 도쿄타워 도보 10분 · 예약 권장"
+        }
+      ]
+    }
+  ],
+  "day_trips": {
+    "id": "section_day_trips",
+    "order": 10,
+    "is_day_trip": true,
+    "title": {
+      "ko": "Day Trips — 도쿄 너머 하루",
+      "en": "Day Trips Beyond Tokyo"
+    },
+    "subtitle_intent": "당일치기 4가지 방향 — 산·바다·미래·고전",
+    "subsections": [
+      {
+        "id": "day_hakone",
+        "name": {
+          "ko": "하코네 — 산과 온천",
+          "en": "Hakone — Mountains & Hot Springs"
+        },
+        "narrative": {
+          "ko": "신칸센으로 한 시간. 해발이 도쿄의 다른 모든 것을 흐리게 만든다.",
+          "en": "An hour by Shinkansen. Altitude blurs everything else about Tokyo."
+        },
+        "entity_ids": [
+          "ent_059",
+          "ent_060"
+        ],
+        "cover_entity_id": "ent_059",
+        "entity_signatures": [
+          {
+            "entity_id": "ent_059",
+            "name_ko": "하코네유모토역",
+            "signature_line": "신주쿠~오다큐 로망스카 1시간 30분 · 2,470엔"
+          },
+          {
+            "entity_id": "ent_060",
+            "name_ko": "아시노코 크루즈 (해적선)",
+            "signature_line": "1구간 1,200엔 · 30분 · 후지산 정면 (맑은 날)"
+          }
+        ]
+      },
+      {
+        "id": "day_kamakura",
+        "name": {
+          "ko": "가마쿠라 — 바다와 고전",
+          "en": "Kamakura — Sea & Classics"
+        },
+        "narrative": {
+          "ko": "에노덴 한 줄에 절·대불·해변·슬램덩크가 모두 있다.",
+          "en": "Temples, Buddha, beach, and Slam Dunk — all on a single Enoden line."
+        },
+        "entity_ids": [
+          "ent_064",
+          "ent_067",
+          "ent_062",
+          "ent_063",
+          "ent_066",
+          "ent_061",
+          "ent_068",
+          "ent_065"
+        ],
+        "cover_entity_id": "ent_069",
+        "entity_signatures": [
+          {
+            "entity_id": "ent_064",
+            "name_ko": "코토쿠인 (가마쿠라 대불)",
+            "signature_line": "입장 300엔 · 13.35m 청동 대불, 1252년 · 내부 진입 50엔"
+          },
+          {
+            "entity_id": "ent_067",
+            "name_ko": "가마쿠라코코마에역 (슬램덩크)",
+            "signature_line": "슬램덩크 OP 건널목 · 에노덴 무인역 · 사진 매너 (도로 X)"
+          },
+          {
+            "entity_id": "ent_062",
+            "name_ko": "메이게츠인",
+            "signature_line": "입장 500엔 · '아지사이데라' 6월 수국 폭발 · 원형 창문 명소"
+          },
+          {
+            "entity_id": "ent_063",
+            "name_ko": "쓰루가오카 하치만구",
+            "signature_line": "무료 · 가마쿠라 막부 본거지 · 8월 보름달 축제"
+          },
+          {
+            "entity_id": "ent_066",
+            "name_ko": "에노시마",
+            "signature_line": "입장 무료 (전망대 별도) · 다리 건너 섬 · 일몰 명소"
+          },
+          {
+            "entity_id": "ent_061",
+            "name_ko": "엔가쿠지",
+            "signature_line": "입장 500엔 · 임제종 본산, 1282년 · 다도 체험 (사전 예약)"
+          },
+          {
+            "entity_id": "ent_068",
+            "name_ko": "요리도코로",
+            "signature_line": "고등어 정식 1,980엔 · 창가석 예약 필수 · 에노덴 보이는 카운터"
+          },
+          {
+            "entity_id": "ent_065",
+            "name_ko": "하세데라",
+            "signature_line": "입장 500엔 · 11.3m 관음상 · 전망대에서 가마쿠라 해안 한눈에"
+          }
+        ]
+      },
+      {
+        "id": "day_odaiba",
+        "name": {
+          "ko": "오다이바 — 바다 위 미래",
+          "en": "Odaiba — Future on the Bay"
+        },
+        "narrative": {
+          "ko": "유리카모메가 베이를 가로지르는 동안 도쿄는 사이파이 영화가 된다.",
+          "en": "As the Yurikamome glides across the bay, Tokyo turns into a sci-fi film."
+        },
+        "entity_ids": [
+          "ent_069",
+          "ent_070",
+          "ent_071",
+          "ent_072"
+        ],
+        "cover_entity_id": "ent_069",
+        "entity_signatures": [
+          {
+            "entity_id": "ent_069",
+            "name_ko": "도요스 시장",
+            "signature_line": "무료 · 마구로 경매 6:00 견학 (사전 예약) · 식당가 ~14:00"
+          },
+          {
+            "entity_id": "ent_070",
+            "name_ko": "팀랩 플래닛 도쿄",
+            "signature_line": "입장 3,800엔 · 맨발 입장 · 90분 추천 · 사전 예매 필수"
+          },
+          {
+            "entity_id": "ent_071",
+            "name_ko": "유니콘 건담 (다이버시티 도쿄 플라자)",
+            "signature_line": "무료 · 19.7m · 11/13/15/17/19시 변형 쇼"
+          },
+          {
+            "entity_id": "ent_072",
+            "name_ko": "건담 베이스 도쿄",
+            "signature_line": "다이버시티 7F · 한정판 건프라 · 전 세계 최대 건담 매장"
+          }
+        ]
+      },
+      {
+        "id": "day_fuji",
+        "name": {
+          "ko": "후지큐 & 가와구치코 — 산·물 그리고 후지",
+          "en": "Fuji-Q & Kawaguchiko — Mountain, Lake, Fuji"
+        },
+        "narrative": {
+          "ko": "후지산이 보이는 날과 보이지 않는 날 — 두 날의 여행은 완전히 다른 여행이다.",
+          "en": "Days when Fuji is visible and days when it isn't — they are not the same trip."
+        },
+        "entity_ids": [
+          "ent_073",
+          "ent_074",
+          "ent_075",
+          "ent_076"
+        ],
+        "cover_entity_id": "ent_073",
+        "entity_signatures": [
+          {
+            "entity_id": "ent_073",
+            "name_ko": "후지큐 하이랜드",
+            "signature_line": "입장 무료 · 1일 패스 6,500엔 · 4대 명물 코스터 · 후지산 정면"
+          },
+          {
+            "entity_id": "ent_074",
+            "name_ko": "가와구치코",
+            "signature_line": "후지5호 중 가장 접근 쉬움 · 신주쿠에서 고속버스 1,800엔"
+          },
+          {
+            "entity_id": "ent_075",
+            "name_ko": "오이시 공원",
+            "signature_line": "무료 · 가와구치코 북쪽 · 라벤더(7월)·코키아(가을) · 후지산 베스트 뷰"
+          },
+          {
+            "entity_id": "ent_076",
+            "name_ko": "오시노핫카이",
+            "signature_line": "무료 · 후지산 용천수 8개 연못 · 시즈오카·야마나시 경계 마을"
+          }
+        ]
+      }
+    ]
+  },
+  "appendix": {
+    "practical": {
+      "id": "section_practical",
+      "order": 11,
+      "type": "compressed_checklist_appendix",
+      "title": {
+        "ko": "Practical — 떠나기 전",
+        "en": "Practical — Before You Go"
+      },
+      "subtitle_intent": "Monocle Essentials 패턴. 카드 X, 체크리스트 + 카테고리 + 짧은 팁.",
+      "subcategories": [
+        {
+          "id": "p_entry_sim_currency",
+          "name": {
+            "ko": "입국 · 통신 · 환전",
+            "en": "Entry, SIM, Currency"
+          },
+          "tips": [
+            "Visit Japan Web 사전 등록 — 입국·세관·면세 신고 통합. 출발 24시간 전.",
+            "USIM 또는 eSIM — 한국에서 미리. ESIM은 도착 즉시 활성화.",
+            "나리타 → 시내 — 스카이라이너 2,580엔, 41분. 하네다는 케이큐·모노레일 약 500엔.",
+            "Suica·PASMO IC — Apple Wallet에 추가하면 충전·결제 한 번에.",
+            "현금 5만 엔 — 노포·신사·자판기는 카드 안 됨. 세븐뱅크 ATM 24시간."
+          ]
+        },
+        {
+          "id": "p_apps",
+          "name": {
+            "ko": "필수 앱",
+            "en": "Essential Apps"
+          },
+          "tips": [
+            "Google Maps — 일본 일정의 척추. 오프라인 지도 미리 다운로드.",
+            "Japan Transit Planner — 환승·요금 정확. 야후 노선 검색의 영문판.",
+            "ChatGPT 또는 Papago — 메뉴판·표지판 카메라 번역. 손글씨도 인식.",
+            "tenki — 일본 현지 날씨, 시간대별 강수확률.",
+            "타베로그 — 별점 3.5 이상이면 거의 안 망함.",
+            "Japan Wi-Fi Auto-Connect — 카페·역 무료 Wi-Fi 자동 연결."
+          ]
+        },
+        {
+          "id": "p_packing",
+          "name": {
+            "ko": "준비물 · 짐",
+            "en": "Packing"
+          },
+          "tips": [
+            "걸을 신발 두 켤레 — 도쿄는 하루 15~20km 걷는 도시.",
+            "캐리어 호텔 직배송 — 야마토 운수, 공항에서 다음날 도착, 약 2,500엔.",
+            "110V 변압기 — 한국 220V 가전용. 노트북·휴대폰 충전기는 대부분 free volt.",
+            "보조 배터리 — Google Maps가 배터리를 빠르게 빨아먹음.",
+            "에코백 — 편의점 봉투 3엔, 쇼핑 시 부피 확보."
+          ]
+        },
+        {
+          "id": "p_local_konbini_donki",
+          "name": {
+            "ko": "현지 팁 — 편의점 · 돈키호테",
+            "en": "Local — Konbini & Don Quijote"
+          },
+          "tips": [
+            "편의점 서열 (편파적): 세븐일레븐 오니기리 > 로손 디저트 > 패밀리마트 가공식품.",
+            "로손 5계열 — 짭짤한 빵·간식 / 한 끼 메인 / 덮밥 / 오니기리·과자 / 디저트.",
+            "MEGA 돈키호테 — 일반 돈키와 다름. 시부야·우에노 매장이 가장 풀라인업.",
+            "면세 5,000엔 이상 — 같은 매장 합산, 여권 필수, 새벽이 줄 짧음.",
+            "편의점 ATM 24시간 — 세븐뱅크가 가장 안정적, 한국 카드 인출 가능."
+          ]
+        },
+        {
+          "id": "p_etiquette",
+          "name": {
+            "ko": "에티켓",
+            "en": "Etiquette"
+          },
+          "tips": [
+            "전철 통화 금기 — 음성 메시지도 헤드폰.",
+            "에스컬레이터 — 도쿄는 왼쪽, 오사카·교토는 오른쪽.",
+            "쓰레기통 거의 없음 — 편의점 옆 또는 숙소까지.",
+            "팁 없음 — 식당·택시·호텔 모두. 두면 직원이 따라 나옴.",
+            "온센 — 타투 대부분 입장 불가. 수건은 탕에 절대 안 담금.",
+            "신발 벗기 — 료칸·일부 노포 입구. 양말 깨끗이."
+          ]
+        }
+      ],
+      "compression_method": "7개 게시물 dedup → 5 서브카테고리 28개 핵심 팁 (v2: JR 패스 등 부정확 정보 제거, 톤 일관성 강화)"
+    }
+  },
+  "meta": {
+    "generated_at": "2026-04-18T11:33:19Z",
+    "schema_version": "2.0",
+    "consumer": "Figma Make (English design brief: figma_make_prompt.md)",
+    "data_source": {
+      "atoms_combined": "atoms_combined.json (19 atoms, 207 hints)",
+      "entities_graph": "entities_graph.json (83 entities, 13 clusters, 51 background, 20 unresolved)",
+      "magazine_outline": "magazine_outline.json (spine: 9 chapters + 2 appendix + editor_note)"
+    },
+    "rendering_rules_applied": {
+      "chapter_sort": "magazine_outline.order LOCKED (entity_count 정렬 X)",
+      "card_sort_within_chapter": "mention_count desc, then ko name asc",
+      "one_liner_priority": "Tier 1 curator_notes > Tier 4 theme_tag fallback (Tier 2/3 미적용)",
+      "image_source": "google_place_id 우선, image_query fallback"
+    },
+    "card_summary": {
+      "ch_shibuya": {
+        "actual": 13,
+        "target": "12~18"
+      },
+      "ch_shinjuku": {
+        "actual": 10,
+        "target": "10~14"
+      },
+      "ch_ginza": {
+        "actual": 10,
+        "target": "8~12"
+      },
+      "ch_harajuku_omotesando": {
+        "actual": 6,
+        "target": "6~10"
+      },
+      "ch_asakusa_skytree": {
+        "actual": 13,
+        "target": "6~10"
+      },
+      "ch_ueno_akihabara": {
+        "actual": 6,
+        "target": "5~8"
+      },
+      "ch_shimokitazawa": {
+        "actual": 3,
+        "target": "6~10"
+      },
+      "ch_azabujuban_mongennakacho": {
+        "actual": 2,
+        "target": "4~6"
+      }
+    },
+    "v2_changes": [
+      "All entity cards now have signature_line (price · core menu/feature · key tip in one line)",
+      "day_trips.subsections[].entity_signatures[] added with same pattern",
+      "appendix.practical fully rewritten — JR Pass removed (incorrect for Tokyo issue), brand-specific recommendations removed (IIJmio/Ahamo unverified), critical apps re-added (tenki, Japan Wi-Fi Auto-Connect)",
+      "Tone: Cereal magazine — pricing as factual statements, no superlatives, em-dash separators throughout"
+    ]
+  }
+}
